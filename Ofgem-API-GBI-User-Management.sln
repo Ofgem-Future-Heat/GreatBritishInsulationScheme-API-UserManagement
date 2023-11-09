@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E9595C5-D52A-403E-A44D-ECE13FCBAC1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{45E07335-99C6-40B1-BD22-8B85E3F61241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.UserManagement.Application", "src\Ofgem.API.GBI.UserManagement.Application\Ofgem.API.GBI.UserManagement.Application.csproj", "{A8252F1D-31EA-4726-9F06-A9FFDDFE9949}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.UserManagement.Infrastructure", "src\Ofgem.API.GBI.UserManagement.Infrastructure\Ofgem.API.GBI.UserManagement.Infrastructure.csproj", "{564B1965-12D5-4996-97FB-6E31BEA34BFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.Database.GBI.Users.Domain", "src\Ofgem.Database.GBI.Users.Domain\Ofgem.Database.GBI.Users.Domain.csproj", "{95E71058-61B6-4FC2-A9A5-7AF25A454329}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.Database.GBI.Users.Infrastructure", "src\Ofgem.Database.GBI.Users.Infrastructure\Ofgem.Database.GBI.Users.Infrastructure.csproj", "{5CC9DEEC-A6FB-4F1C-80B3-84F274DB7B23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.UserManagement.Api", "src\Ofgem.API.GBI.UserManagement.Api\Ofgem.API.GBI.UserManagement.Api.csproj", "{F01648A1-6E96-4D6D-BB05-80AA0C09AEAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CFEA9D3-2F77-4795-BC03-5C8D7B921453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.UserManagement.Api.UnitTests", "tests\Ofgem.API.GBI.UserManagement.Api.UnitTests\Ofgem.API.GBI.UserManagement.Api.UnitTests.csproj", "{AED9533B-FC50-43CB-9E3B-5C7D5EE7F3CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.UserManagement.Application.UnitTests", "tests\Ofgem.API.GBI.UserManagement.Application.UnitTests\Ofgem.API.GBI.UserManagement.Application.UnitTests.csproj", "{65CE24FF-BA2D-4ADC-A571-BFB6F0150403}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.Database.GBI.Users.Infrastructure.UnitTests", "tests\Ofgem.Database.GBI.Users.Infrastructure.UnitTests\Ofgem.Database.GBI.Users.Infrastructure.UnitTests.csproj", "{4D3A0FDA-F1BB-4288-BE53-2627B8B3A900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8252F1D-31EA-4726-9F06-A9FFDDFE9949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8252F1D-31EA-4726-9F06-A9FFDDFE9949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8252F1D-31EA-4726-9F06-A9FFDDFE9949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8252F1D-31EA-4726-9F06-A9FFDDFE9949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564B1965-12D5-4996-97FB-6E31BEA34BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564B1965-12D5-4996-97FB-6E31BEA34BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564B1965-12D5-4996-97FB-6E31BEA34BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564B1965-12D5-4996-97FB-6E31BEA34BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E71058-61B6-4FC2-A9A5-7AF25A454329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E71058-61B6-4FC2-A9A5-7AF25A454329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E71058-61B6-4FC2-A9A5-7AF25A454329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E71058-61B6-4FC2-A9A5-7AF25A454329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC9DEEC-A6FB-4F1C-80B3-84F274DB7B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC9DEEC-A6FB-4F1C-80B3-84F274DB7B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC9DEEC-A6FB-4F1C-80B3-84F274DB7B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC9DEEC-A6FB-4F1C-80B3-84F274DB7B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01648A1-6E96-4D6D-BB05-80AA0C09AEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01648A1-6E96-4D6D-BB05-80AA0C09AEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01648A1-6E96-4D6D-BB05-80AA0C09AEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01648A1-6E96-4D6D-BB05-80AA0C09AEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED9533B-FC50-43CB-9E3B-5C7D5EE7F3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED9533B-FC50-43CB-9E3B-5C7D5EE7F3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED9533B-FC50-43CB-9E3B-5C7D5EE7F3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED9533B-FC50-43CB-9E3B-5C7D5EE7F3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65CE24FF-BA2D-4ADC-A571-BFB6F0150403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CE24FF-BA2D-4ADC-A571-BFB6F0150403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CE24FF-BA2D-4ADC-A571-BFB6F0150403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CE24FF-BA2D-4ADC-A571-BFB6F0150403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3A0FDA-F1BB-4288-BE53-2627B8B3A900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3A0FDA-F1BB-4288-BE53-2627B8B3A900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3A0FDA-F1BB-4288-BE53-2627B8B3A900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3A0FDA-F1BB-4288-BE53-2627B8B3A900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8252F1D-31EA-4726-9F06-A9FFDDFE9949} = {1E9595C5-D52A-403E-A44D-ECE13FCBAC1B}
+		{564B1965-12D5-4996-97FB-6E31BEA34BFC} = {1E9595C5-D52A-403E-A44D-ECE13FCBAC1B}
+		{95E71058-61B6-4FC2-A9A5-7AF25A454329} = {1E9595C5-D52A-403E-A44D-ECE13FCBAC1B}
+		{5CC9DEEC-A6FB-4F1C-80B3-84F274DB7B23} = {1E9595C5-D52A-403E-A44D-ECE13FCBAC1B}
+		{F01648A1-6E96-4D6D-BB05-80AA0C09AEAC} = {1E9595C5-D52A-403E-A44D-ECE13FCBAC1B}
+		{AED9533B-FC50-43CB-9E3B-5C7D5EE7F3CE} = {45E07335-99C6-40B1-BD22-8B85E3F61241}
+		{65CE24FF-BA2D-4ADC-A571-BFB6F0150403} = {45E07335-99C6-40B1-BD22-8B85E3F61241}
+		{4D3A0FDA-F1BB-4288-BE53-2627B8B3A900} = {45E07335-99C6-40B1-BD22-8B85E3F61241}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E84B08D7-EA4D-48BC-B66E-FE825A0874DC}
+	EndGlobalSection
+EndGlobal
